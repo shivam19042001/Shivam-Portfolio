@@ -1,0 +1,10 @@
+AI Travel Planner Agent | Live Demo:- http://13.60.19.8:8502/
+Technologies: Python | LangChain | LLM | AWS
+
+•	Developed an AI-powered travel planning agent that generates personalized day-wise itineraries based on destination, interests, travel style, and pace.
+•	Integrated LangChain agents with Groq Llama-3 model to enable intelligent itinerary generation and reasoning. 
+•	travel_agent
+•	Implemented real-time travel data retrieval using Tavily and Google Serper APIs for attractions, restaurants, and travel insights.
+•	Designed a modular AI agent architecture with tools, prompts, and configuration management. 
+•	planner
+•	Deployed the application on AWS to enable scalable access and cloud-based execution.

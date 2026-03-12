@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shivam Thacker | AI & ML Engineer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Shivam, an AI & ML engineer specializing in intelligent agents, computer vision, and data-driven APIs."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="logo">Shivam Thacker</div>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          <span class="theme-toggle-icon">☾</span>
+        </button>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-text">
+            <p class="eyebrow">AI / ML Engineer · Full‑Stack</p>
+            <h1>
+              I build intelligent<br />
+              <span class="gradient-text">AI agents & experiences</span>
+            </h1>
+            <p class="hero-subtitle">
+              From LangGraph multi‑tool agents to computer vision narrators and
+              FastAPI microservices, I design, train, and ship end‑to‑end AI products
+              that feel fast, reliable, and human‑centric.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn primary">View featured work</a>
+              <a href="#contact" class="btn ghost">Let’s collaborate</a>
+            </div>
+            <div class="hero-meta">
+              <div>
+                <span class="meta-label">Core focus</span>
+                <span class="meta-value">AI Agents · RAG · CV · APIs</span>
+              </div>
+              <div>
+                <span class="meta-label">Open to</span>
+                <span class="meta-value">Remote / Freelance / Full‑time</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-orbit">
+              <div class="orbit-dot orbit-dot-1">RAG</div>
+              <div class="orbit-dot orbit-dot-2">Agents</div>
+              <div class="orbit-dot orbit-dot-3">Vision</div>
+              <div class="orbit-core">
+                <span>AI</span>
+                <span>Systems</span>
+              </div>
+            </div>
+            <div class="hero-card-bottom">
+              <p>Recent stack</p>
+              <div class="chip-row">
+                <span class="chip">Python · FastAPI</span>
+                <span class="chip">LangChain / LangGraph</span>
+                <span class="chip">OpenAI / Anthropic APIs</span>
+                <span class="chip">Docker</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section">
+          <div class="section-header">
+            <p class="eyebrow">About</p>
+            <h2>Who I am</h2>
+          </div>
+          <div class="about-grid">
+            <p class="about-text">
+              I’m Shivam Thacker, an engineer obsessed with turning raw models into polished
+              products. I love designing AI systems that combine solid software
+              engineering with practical ML – from data pipelines and training to
+              APIs and UX.
+            </p>
+            <p class="about-text">
+              Recently, I’ve been focused on building multi‑tool agents with tools
+              like LangGraph, crafting conversational experiences that can browse,
+              search, and call external APIs reliably. I’ve also shipped computer
+              vision apps that narrate the world and domain‑specific copilots that
+              automate tedious workflows.
+            </p>
+          </div>
+        </section>
+
+        <section id="skills" class="section">
+          <div class="section-header">
+            <p class="eyebrow">Skills</p>
+            <h2>What I work with</h2>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>AI & ML</h3>
+              <p>
+                Building and orchestrating intelligent systems end‑to‑end – from
+                data to deployment.
+              </p>
+              <div class="chip-row">
+                <span class="chip">LLMs · RAG</span>
+                <span class="chip">LangChain / LangGraph</span>
+                <span class="chip">Prompt engineering</span>
+                <span class="chip">Computer vision</span>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>Backend & APIs</h3>
+              <p>
+                Clean, fast services for AI features that are easy to integrate.
+              </p>
+              <div class="chip-row">
+                <span class="chip">Python</span>
+                <span class="chip">FastAPI</span>
+                <span class="chip">Docker</span>
+                <span class="chip">API design</span>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>Tools & Platforms</h3>
+              <p>
+                The ecosystem I use to build and ship AI‑powered products.
+              </p>
+              <div class="chip-row">
+                <span class="chip">LangChain</span>
+                <span class="chip">LangGraph</span>
+                <span class="chip">OpenAI API</span>
+                <span class="chip">Hugging Face</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section">
+          <div class="section-header section-header-row">
+            <div>
+              <p class="eyebrow">Projects</p>
+              <h2>Featured work</h2>
+            </div>
+            <p class="section-tagline">
+              A selection of AI‑powered projects spanning agents, APIs, and computer
+              vision.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-pill">Flagship</div>
+              <h3>LangGraph Multi‑Tool AI Chatbot</h3>
+              <p class="project-meta">
+                Orchestrated a production‑grade AI assistant with streaming
+                responses, RAG, and tool‑calling.
+              </p>
+              <p class="project-body">
+                Designed a LangGraph‑based agent that can route between tools like
+                web search, retrieval, and external APIs while maintaining
+                conversation state. Implemented token‑streaming UI, robust error
+                handling, and guardrails for safe execution.
+              </p>
+              <div class="project-tech">
+                <span class="chip">LangGraph</span>
+                <span class="chip">LangChain</span>
+                <span class="chip">RAG</span>
+                <span class="chip">TypeScript / Python</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="http://13.60.19.8:8503/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="btn ghost"
+                  >Open project</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h3>Resume Genie · AI Resume Builder</h3>
+              <p class="project-meta">
+                An AI‑assisted tool that crafts tailored resumes aligned with target
+                roles.
+              </p>
+              <p class="project-body">
+                Built a workflow where users input experience and job descriptions,
+                then an LLM restructures, rewrites, and scores resumes. Added
+                multiple iterations, bullet rewrites, and export‑friendly
+                formatting.
+              </p>
+              <div class="project-tech">
+                <span class="chip">LLMs</span>
+                <span class="chip">Prompt design</span>
+                <span class="chip">Web UI</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="http://13.60.19.8:8501/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="btn ghost"
+                  >Open project</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h3>AI Travel Planner Agent</h3>
+              <p class="project-meta">
+                A conversational agent that plans end‑to‑end trips with real‑world
+                constraints.
+              </p>
+              <p class="project-body">
+                Implemented tools for destination research, budget handling, and
+                itinerary generation so users can co‑plan trips naturally. Focused
+                on reliable tool‑calling and clear explanations for each suggestion.
+              </p>
+              <div class="project-tech">
+                <span class="chip">Agents</span>
+                <span class="chip">Tool calling</span>
+                <span class="chip">External APIs</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="http://13.60.19.8:8502/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="btn ghost"
+                  >Open project</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h3>Object Detector & Narrator</h3>
+              <p class="project-meta">
+                Real‑time computer vision app that narrates the scene to the user.
+              </p>
+              <p class="project-body">
+                Combined a lightweight detection model with text‑to‑speech to
+                describe objects in the camera feed. Tuned model performance and UX
+                to keep narration relevant and non‑overwhelming.
+              </p>
+              <div class="project-tech">
+                <span class="chip">Computer vision</span>
+                <span class="chip">Python</span>
+                <span class="chip">TTS</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://huggingface.co/spaces/shivam00007/Object-detector-with-narrator"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="btn ghost"
+                  >Open project</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h3>Insurance Premium Prediction API</h3>
+              <p class="project-meta">
+                FastAPI microservice that predicts insurance premiums from customer
+                attributes.
+              </p>
+              <p class="project-body">
+                Trained and deployed a regression model wrapped in a clean FastAPI
+                interface. Included validation, simple monitoring, and examples for
+                easy integration into downstream apps.
+              </p>
+              <div class="project-tech">
+                <span class="chip">FastAPI</span>
+                <span class="chip">ML regression</span>
+                <span class="chip">Docker‑ready</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="section section-contact">
+          <div class="section-header">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something</h2>
+          </div>
+          <p class="contact-text">
+            I’m always interested in ambitious AI products, research‑driven teams,
+            and collaborations where I can own features end‑to‑end.
+          </p>
+          <div class="contact-actions">
+            <p class="contact-email">
+              Email:
+              <a href="mailto:thackershivam555@gmail.com"
+                >thackershivam555@gmail.com</a
+              >
+            </p>
+            <a
+              href="https://www.linkedin.com/in/shivam-thacker-b575151b9/"
+              target="_blank"
+              rel="noreferrer"
+              class="btn ghost"
+              >LinkedIn</a
+            >
+            <a
+              href="https://github.com/shivam19042001"
+              target="_blank"
+              rel="noreferrer"
+              class="btn ghost"
+              >GitHub</a
+            >
+          </div>
+          <p class="contact-note">
+            You can customize the email and social links directly in the
+            <code>index.html</code> file.
+          </p>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>© <span id="year"></span> Shivam Thacker. All rights reserved.</span>
+        <span class="footer-built-with">Built with HTML · CSS · JS</span>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,10 @@
+LangGraph Multi-Tool AI Chatbot with Streaming, RAG, and MCP Integration |  Live Demo: - http://13.60.19.8:8503/
+Technologies: Python | LangGraph | LangChain | Streamlit | FAISS | OpenAI API | SQLite | MCP | AWS | RAG 
+
+•	Developed and deployed a LangGraph-based AI chatbot with tool calling, streaming responses, and persistent conversation memory using SQLite. 
+•	Built an interactive Streamlit chat interface for real-time AI interaction.
+•	Implemented Retrieval-Augmented Generation (RAG) with FAISS vector embeddings to enable contextual question answering from uploaded PDF documents.
+•	Integrated multiple tools including web search, stock API, calculator, and MCP-based tools to extend the agent’s capabilities.
+•	Deployed the application on AWS, making the AI chatbot accessible as a live web application.
+
+

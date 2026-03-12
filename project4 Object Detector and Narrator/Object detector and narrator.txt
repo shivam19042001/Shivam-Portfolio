@@ -1,0 +1,7 @@
+Object Detector and Narrator | Live Demo: - https://huggingface.co/spaces/shivam00007/Object-detector-with-narrator
+Technologies: HuggingFace, Meta (Facebook) AI Models, LLMs, Gradio
+•	Implemented a computer vision pipeline for multi-object detection using pre-trained Meta AI models available through HuggingFace.
+•	Integrated a Large Language Model (LLM) to automatically generate natural-language narration for detected objects
+•	Combined computer vision and generative AI to create an end-to-end multimodal system
+•	Developed a real-time interactive web application using Gradio
+•	Deployed the solution on HuggingFace Spaces, enabling public access and live inference

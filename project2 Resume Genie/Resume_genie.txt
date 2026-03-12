@@ -1,0 +1,8 @@
+Resume Genie | Live Demo: - http://13.60.19.8:8501/
+Technologies: Python | Streamlit | LangChain | OpenAI API | NLP | AWS
+
+•	Developed Resume Genie, an AI-powered resume optimization platform that provides cover letter generation, resume scoring, resume matching with job descriptions, and an AI career coach chatbot.
+•	Implemented PDF resume parsing and analysis using LangChain, enabling automated resume evaluation and personalized career guidance. 
+•	Built an interactive Streamlit dashboard integrating multiple AI tools into a unified interface.
+•	Deployed the application on AWS, making the platform accessible as a live web application.
+

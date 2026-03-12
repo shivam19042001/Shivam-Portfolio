@@ -1,0 +1,10 @@
+{
+  "name": "shivam-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal AI/ML portfolio for Shivam.",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
+

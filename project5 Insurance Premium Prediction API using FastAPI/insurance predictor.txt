@@ -1,0 +1,7 @@
+Insurance Premium Prediction API using FastAPI
+Technologies: Python | FastAPI | Scikit-learn | Pandas | NumPy | Pydantic | Docker | Uvicorn
+Project Link: Git Repository : - https://github.com/shivam19042001/Insurance_level_predictor
+
+•	Developed a machine learning–powered REST API to predict insurance premium categories based on user demographic and lifestyle inputs. 
+•	The system exposes endpoints using FastAPI to accept validated user data, process it through a trained ML model, and return predictions in JSON format.
+•	The project follows a production-ready API architecture, including schema validation with Pydantic, health-check endpoints, versioning, and containerization using Docker for easy deployment and scalability.
